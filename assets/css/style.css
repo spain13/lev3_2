@@ -77,6 +77,7 @@ h2 {
 
 .title p {
   width: 50%;
+  color: #0b0c17;
 }
 .title img {
   width: 50px;
@@ -84,6 +85,7 @@ h2 {
 .title div:nth-of-type(1) {
   grid-column: 1/2;
 }
+
 .ready h2 {
   text-align: center;
 }
