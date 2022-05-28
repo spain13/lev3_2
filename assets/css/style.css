@@ -5,7 +5,7 @@ html {
   color: #0b0c17;
 }
 main {
-  width: 100%;
+  width: 100%; 
   overflow: hidden;
 }
 header {
@@ -110,7 +110,24 @@ footer img {
   text-align: left;
   width: 30px;
 }
-footer input{
-    display: block;
+footer input {
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
 }
-   
+footer input:nth-of-type(1) {
+  margin-top: 60px;
+  margin-left: 35%;
+  padding: 10px 100px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 2px 2px 2px 2px #dddddd;
+  background-color: #fff;
+}
+footer input:nth-of-type(2) {
+  background-color: #ff3571;
+  padding: 10px 60px;
+  margin-left: 42%;
+  border-radius: 3px;
+  border: none;
+}
