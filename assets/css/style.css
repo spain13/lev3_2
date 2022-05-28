@@ -1,3 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
-/* font-family: 'Roboto', sans-serif; */
+html {
+  font-family: "Roboto", sans-serif;
+  color: #0b0c17;
+}
+main {
+  width: 100%;
+  overflow: hidden;
+}
+header {
+  background: url("../../img/ilustracion1.png");
+  background-size: 700px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding-left: 100px;
+}
+
+header span {
+  font-size: 15px;
+  color: #dddddd;
+}
+h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+h2 {
+  padding-top: 600px;
+  font-size: 46px;
+}
+.how {
+  text-align: left;
+}
+#logo {
+  position: fixed;
+  z-index: 2;
+  left: 30px;
+  top: 30px;
+  width: 50px;
+}
+.scroll {
+  color: #ff3571;
+}
+.bilder {
+  width: 100%;
+  height: 50%;
+}
+.man {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  left: 100px;
+  top: -900px;
+}
+.every {
+  display: flex;
+  flex-wrap: wrap;
+}
+.every h2 {
+  width: 50%;
+}
+.every p {
+  width: 50%;
+}
+.every p:nth-of-type(1) {
+  margin-top: 70%;
+}
+.every img {
+  width: 50px;
+}
+.title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.title p {
+  width: 50%;
+}
+.title img {
+  width: 50px;
+}
+.title div:nth-of-type(1) {
+  grid-column: 1/2;
+}
+.ready h2 {
+  text-align: center;
+}
+.ready p:nth-of-type(1) {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.number {
+  font-size: 30px;
+  color: #dddddd;
+}
+.png {
+  width: 50%;
+}
+footer {
+  text-align: center;
+}
+footer p:nth-of-type(2) {
+  text-align: left;
+
+  margin-top: 30%;
+}
+footer img {
+  text-align: left;
+  width: 30px;
+}
+footer input{
+    display: block;
+}
+   
